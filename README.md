@@ -1,29 +1,19 @@
 # Fyle Backend Challenge
 
-## Who is this for?
-
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. You should be able to commit to at least 6 months of dedicated time for internship.
-
-## Why work at Fyle?
-
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
-
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
-
-
-## Challenge outline
-
-**You are allowed to use any online/AI tool such as ChatGPT, Gemini, etc. to complete the challenge. However, we expect you to fully understand the code and logic involved.**
-
-This challenge involves writing a backend service for a classroom. The challenge is described in detail [here](./Application.md)
-
-
-## What happens next?
-
-You will hear back within 48 hours from us via email. 
-
+- [X] Added Missing Missing APIs
+- [X] Improved the Test Coverage to 95%
+- [X] Dockerised the Application with Dockerfile and docker-compose.yml
+<img width="1396" alt="image" src="https://github.com/ClawedCatalyst/fyle-interview-intern-backend/assets/97229491/6889b8bc-a18e-49d9-80db-808a9377f9a0">
 
 ## Installation
+
+### Run using Docker
+
+To run the docker on local machine simply run the following command:
+
+```
+docker-compose up -d
+```
 
 1. Fork this repository to your github account
 2. Clone the forked repository and proceed with steps mentioned below
@@ -56,3 +46,17 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+
+# About Me:
+
+Hello! I’m Suhail!
+I am a passionate and dedicated backend developer based in Delhi, India. Throughout my career, I have honed my skills in various programming languages, including C/C++ and Python. I have expertise in developing robust and scalable web applications using frameworks such as FastAPI, Django, and Django Rest Framework. I have hands-on experience with databases such as SQLite and PostgreSQL. Moreover, I am familiar with tools and technologies like VSCode, Git, Docker, AWS, MS Azure, Redis, Gunicorn, and Nginx.
+
+Hackathons hold a special place in my heart; they are where I truly thrive. Over the years, I’ve actively participated in hackathons. I secured the 1st Runner-Up position in “Paradigm,” a national-level hackathon held at Shiv Nadar University (SNU), Greater Noida. Notably, I achieved the coveted “Finalist” position in a national-level hackathon hosted by the prestigious Indian Institute of Technology (IIT) Guwahati.
+
+### Medium Artciles: 
+[Lightning-Fast Search with MeiliSearch and Python](https://medium.com/@suhail2021.25/lightning-fast-search-with-meilisearch-and-python-5aba7d92ad81)
+<br>
+[Lightning-Fast Search with MeiliSearch and Python (Part 2)](https://medium.com/@suhail2021.25/lightning-fast-search-with-meilisearch-and-python-part-2-9b682546d176)
+
