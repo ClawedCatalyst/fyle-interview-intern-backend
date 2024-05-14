@@ -25,7 +25,6 @@ def list_assignments(p):
 def list_teachers(p):
     """List all the teachers"""
     list_of_all_teachers = Teacher.query.all()
-    print(list_of_all_teachers)
     principal_teachers_dump = TeacherListSchema().dump(list_of_all_teachers, many=True)
     return APIResponse.respond(data=principal_teachers_dump)
 
